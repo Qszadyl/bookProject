@@ -1,0 +1,187 @@
+
+.main{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    background: hsla(26, 40%, 43%, 1);
+    background: radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#996742", endColorstr="#160700", GradientType=1 );
+}
+    .search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    }
+
+    .search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .single{
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0px;
+        padding: 50px;
+        color: white;
+        background: hsla(26, 40%, 43%, 1);
+        background: radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        background: -moz-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        background: -webkit-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#996742", endColorstr="#160700", GradientType=1 );
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .btn{
+        width: 170px;
+        padding: 10px;
+        background-color: goldenrod;
+        color: black;
+        font-weight: 600;
+        border: none;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .btn a{
+        color: black;
+    }
+    
+    .btn:hover{
+        background-color: rgb(255, 201, 64);
+    }
+
+  
+
+    .searchList{
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       
+    }
+
+    
+
+.clientListWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+
+.output{
+    display: flex;
+     flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ 
+    
+}
+
+.buttonWrapper{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.clinet-box{
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    width: 90%;
+
+    flex-direction: row;
+}
+
+.clinet-box p{
+    padding-right: 15px;
+}
+
+
+
+    .borrowButton{
+        width: 120px;
+        height: 40px;
+        padding: 5px;
+        background-color: hsla(26, 40%, 43%, 1);
+        border: 2px solid goldenrod;
+        color: goldenrod;
+        font-size: 1.2rem;
+        transition: 0.2s;
+        cursor: pointer;
+        
+    }
+
+    .borrowButton:hover{
+        background-color: rgb(119, 65, 23);
+    }
+
+    .bigButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsla(26, 40%, 43%, 1);
+        width: 150px;
+        height: 70px;
+        cursor: pointer;
+        transition: 0.2s;
+        cursor: pointer;
+        color: goldenrod;
+        border-radius: 30px;
+        border: 2px solid goldenrod;
+        font-size: 1.6rem;
+
+    }
+
+    .bigButton:hover{
+        background-color: rgb(119, 65, 23);
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        background: -moz-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        background: -webkit-radial-gradient(circle, hsla(26, 40%, 43%, 1) 0%, hsla(19, 100%, 4%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#996742", endColorstr="#160700", GradientType=1 );
+    }
+
+    .home img{
+        width: 500px;
+        height: 300px;
+    }
+
+
+
+
+
